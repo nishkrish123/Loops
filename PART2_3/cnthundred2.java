@@ -1,0 +1,14 @@
+package PART2_3;
+import java.util.Scanner;
+
+public class cnthundred2 {
+    public static void main(String args[]){
+        Scanner scanner = new Scanner(System.in);
+        int num = Integer.valueOf(scanner.nextLine());
+
+        for(int i = num; i <= 100; i++){
+            System.out.println(i);
+        }
+    }
+    
+}
